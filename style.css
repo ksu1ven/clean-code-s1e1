@@ -32,7 +32,7 @@
 .task__input, .task__label {
   width: 56%;
   display: inline-block;
-  flex-grow: 1
+  flex-grow: 1;
 }
 .task-row-wrapper {
   display: flex;
@@ -59,6 +59,7 @@ input,button{
 .btn:hover {
   color: #3a3a3a;
 }
+
 /* Heading */
 .topic {
   color: #333;
@@ -118,7 +119,7 @@ input,button{
   width: 226px;
 }
 .task__input {
-  width: 226px
+  width: 226px;
 }
 .task__btn_delete__img {
   height: 2em;
@@ -137,7 +138,7 @@ input,button{
 
 /* Edit Task */
 .task__input:not(.task__input_new, .task__input_edit){
-  display: none
+  display: none;
 }
 
 .task__input_edit {
